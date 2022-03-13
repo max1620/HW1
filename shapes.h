@@ -37,7 +37,7 @@ public:
 	Circle(double a = 0) :Shape(a) { }
 
 	double area() {
-		return (width * PI);
+		return (width * width * PI);
 	}
 };
 class Triangle : public Shape {
